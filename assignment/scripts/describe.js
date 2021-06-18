@@ -130,11 +130,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - color variables are swapped. colorOne should be set to 'blue' and colorTwo should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// FIX - missing code. colorTwo should also be set to 'purple'.
   colorOne = 'purple';
 }
 */
