@@ -148,7 +148,7 @@ if (mix === true) {
 /*
 let temp = 40;
 // FIX?? - I don't know if this is one you are looking for, but time is not usually a constant.
-// should be let time = 4;
+// should be: let time = 4;
 const time = 4;
 
 // FIX - should replace || with &&
@@ -165,9 +165,13 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - this is technically fine, but for readability, should be: if (age >= minAge)
 if(minAge <= age) {
+// FIX - should be console.log('enter');
   console.log('no entry');
 } else {
+// FIX 1 - instructions say nothing about what to do when the if expression is false. Remove this code.
+// FIX 2 - If the above is reading into it too much, the code should read: console.log('no entry');
   console.log('enter');
 }
 */
