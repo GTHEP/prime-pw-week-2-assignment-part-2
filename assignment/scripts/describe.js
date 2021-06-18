@@ -147,8 +147,11 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX?? - I don't know if this is one you are looking for, but time is not usually a constant.
+// should be let time = 4;
 const time = 4;
 
+// FIX - should replace || with &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
